@@ -16,9 +16,9 @@ function Services() {
           <SectionTitle>Offer</SectionTitle>
         </figure>
       </div>
-      <div className="mt-8 flex flex-col items-center ">
+      <div className="mt-16 flex flex-col items-center ">
         <h4 className="text-2xl md:text-6xl font-semibold">Our Service</h4>
-        <p className="mt-5 md:w-[340px] text-md md:text-xl font-normal md:leading-[42px] text-center">
+        <p className="mt-10 md:w-[340px] text-md md:text-xl font-normal md:leading-[42px] text-center">
           The services you get when you use products from Furniture
         </p>
       </div>
