@@ -2,7 +2,7 @@ import React from 'react'
 
 function ButtonWithoutArrow(props) {
   return (
-    <button className='bg-primaryGreen py-[9px] px-[36px]' {...props}>{props.children}</button>
+    <button className='bg-primaryGreen py-2 px-3 md:py-[9px] md:px-[36px] text-[#1B1B1B] font-medium text-sm md:text-base' {...props}>{props.children}</button>
   )
 }
 

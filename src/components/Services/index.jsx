@@ -4,23 +4,25 @@ import iconCard1 from "../../assets/icon-card1.png"
 import iconCard2 from "../../assets/icon-card2.png"
 import iconCard3 from "../../assets/icon-card3.png"
 import Card from "../Card";
+import SectionTitle from "../SectionTitle";
 
 
 function Services() {
   return (
-    <section className="mt-48">
+    <section className="mt-48 md:mt-48">
       <div className="flex items-center justify-center">
         <figure className="w-[130px] h-[36px]">
-          <img className="w-100 h-100" src={offerIcon} />
+          {/* <img className="w-100 h-100" src={offerIcon} /> */}
+          <SectionTitle>Offer</SectionTitle>
         </figure>
       </div>
       <div className="mt-8 flex flex-col items-center ">
-        <h4 className="text-6xl font-semibold">Our Service</h4>
-        <p className="mt-5 w-[340px] text-xl font-normal leading-[42px] text-center">
+        <h4 className="text-2xl md:text-6xl font-semibold">Our Service</h4>
+        <p className="mt-5 md:w-[340px] text-md md:text-xl font-normal md:leading-[42px] text-center">
           The services you get when you use products from Furniture
         </p>
       </div>
-      <div className="flex flex-row items-center justify-center mt-48 flex-wrap gap-[4rem]">
+      <div className="flex flex-row items-center justify-center mt-16 md:mt-48 flex-wrap gap-[4rem]">
         <Card
           isActive
           icon={iconCard1}
