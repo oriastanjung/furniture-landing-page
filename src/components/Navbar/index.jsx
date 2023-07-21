@@ -6,15 +6,17 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>
-      <div className="md:static bg-white py-4 md:py-0 px-3 md:px-0 fixed top-0 left-0 z-10 w-full flex flex-row items-center justify-between md:gap-[80px]">
+      <nav
+        className="md:static md:border-none border-b-[1px] border-slate-200 bg-white backdrop-filter backdrop-blur-md bg-opacity-30 py-4 md:py-0 px-3 md:px-0 fixed top-0 left-0 z-10 w-full flex flex-row items-center justify-between md:gap-[80px]"
+      >
         <div className="flex flex-row items-center gap-[80px]">
           <NavTitle />
           <ul className="hidden md:flex flex-row gap-[80px]">
-            <li className="font-medium text-xl">Offer</li>
-            <li className="font-medium text-xl">Features</li>
-            <li className="font-medium text-xl">Idea</li>
-            <li className="font-medium text-xl">Product</li>
-            <li className="font-medium text-xl">Testimonial</li>
+            <li className="cursor-pointer font-medium text-xl">Offer</li>
+            <li className="cursor-pointer font-medium text-xl">Features</li>
+            <li className="cursor-pointer font-medium text-xl">Idea</li>
+            <li className="cursor-pointer font-medium text-xl">Product</li>
+            <li className="cursor-pointer font-medium text-xl">Testimonial</li>
           </ul>
           {showMenu && (
             <div className="absolute top-0 h-screen bg-white w-full py-10 z-50">
@@ -83,7 +85,7 @@ function Navbar() {
             />
           </svg>
         </div>
-      </div>
+      </nav>
     </>
   );
 }

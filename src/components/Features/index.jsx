@@ -9,7 +9,7 @@ import rightArrow from "../../assets/icons/right-arrow.svg";
 
 function Features() {
   return (
-    <div className="md:mt-64 mt-48 flex flex-col-reverse md:flex-row">
+    <div className="px-5 md:px-0 container mx-auto md:mt-64 mt-48 flex flex-col-reverse md:flex-row">
       <div className="flex flex-col items-center md:items-start gap-64 md:gap-24 md:w-2/3">
         <div className="flex flex-col md:flex-row relative top-0">
           <div className="flex flex-col items-center md:justify-center border-2 border-[#242424] overflow-hidden  rounded-2xl">
@@ -24,7 +24,7 @@ function Features() {
               />
             </div>
           </div>
-          <div className="absolute w-full top-[110%] md:top-[25%] md:left-[80%] bg-white z-10 flex flex-col gap-6 items-center justify-center border-2 border-[#242424] overflow-hidden  rounded-2xl">
+          <div className="absolute w-full top-[110%] md:top-[25%] md:left-[80%] bg-white z-[1] flex flex-col gap-6 items-center justify-center border-2 border-[#242424] overflow-hidden  rounded-2xl">
             <p className="font-semibold text-[#2F2F2F] text-md md:text-lg  px-8 md:px-16 py-4">
               Color
             </p>

@@ -9,16 +9,16 @@ import SectionTitle from "../SectionTitle";
 
 function Services() {
   return (
-    <section className="mt-48 md:mt-48">
+    <section className="px-5 md:px-0 container mx-auto mt-48 md:mt-48">
       <div className="flex items-center justify-center">
         <figure className="w-[130px] h-[36px]">
           {/* <img className="w-100 h-100" src={offerIcon} /> */}
           <SectionTitle>Offer</SectionTitle>
         </figure>
       </div>
-      <div className="mt-16 flex flex-col items-center ">
-        <h4 className="text-2xl md:text-6xl font-semibold">Our Service</h4>
-        <p className="mt-10 md:w-[340px] text-md md:text-xl font-normal md:leading-[42px] text-center">
+      <div className="mt-8 md:mt-16 flex flex-col items-center ">
+        <h4 className="text-xl md:text-4xl font-bold">Our Service</h4>
+        <p className="mt-6 md:w-[340px] text-sm md:text-xl font-normal md:leading-[42px] text-center">
           The services you get when you use products from Furniture
         </p>
       </div>

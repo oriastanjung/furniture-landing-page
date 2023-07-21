@@ -9,23 +9,47 @@ import icon6 from "../../assets/logos/squire.png";
 
 function Partners() {
   return (
-    <div className="mt-24 md:mt-64 border-t-[1px] border-b-[1px] mb-10 py-4 md:py-10 border-[#282828]">
-      <h2 className="text-lg md:text-2xl text-center mb-20 text-[#282828] font-semibold">
+    <div className="mt-10 md:mt-64 border-t-[1px] border-b-[1px] mb-10 py-4 md:py-10 border-[#282828]">
+      <h2 className="text-lg md:text-2xl text-center mb-10 md:mb-20 text-[#282828] font-semibold">
         Product Partners
       </h2>
       <div>
         <Marquee pauseOnHover={true} loop={0} speed={250}>
-          <img className="bg-cover bg-center md:h-16 h-14 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl ml-20 py-3 px-4 aspect-w-16 aspect-h-9 " src={icon1} alt="" />
+          <img
+            className="bg-cover bg-center md:h-20 h-16 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl md:mx-10  py-3 md:px-10 px-5 aspect-w-16 aspect-h-9 "
+            src={icon1}
+            alt=""
+          />
 
-          <img className="bg-cover bg-center md:h-16 h-14 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl ml-20 py-3 px-4 aspect-w-16 aspect-h-9 " src={icon2} alt="" />
+          <img
+            className="bg-cover bg-center md:h-20 h-16 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl md:mx-10  py-3 md:px-10 px-5 aspect-w-16 aspect-h-9 "
+            src={icon2}
+            alt=""
+          />
 
-          <img className="bg-cover bg-center md:h-16 h-14 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl ml-20 py-3 px-4 aspect-w-16 aspect-h-9 " src={icon3} alt="" />
+          <img
+            className="bg-cover bg-center md:h-20 h-16 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl md:mx-10  py-3 md:px-10 px-5 aspect-w-16 aspect-h-9 "
+            src={icon3}
+            alt=""
+          />
 
-          <img className="bg-cover bg-center md:h-16 h-14 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl ml-20 py-3 px-4 aspect-w-16 aspect-h-9 " src={icon4} alt="" />
+          <img
+            className="bg-cover bg-center md:h-20 h-16 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl md:mx-10  py-3 md:px-10 px-5 aspect-w-16 aspect-h-9 "
+            src={icon4}
+            alt=""
+          />
 
-          <img className="bg-cover bg-center md:h-16 h-14 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl ml-20 py-3 px-4 aspect-w-16 aspect-h-9 " src={icon5} alt="" />
+          <img
+            className="bg-cover bg-center md:h-20 h-16 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl md:mx-10  py-3 md:px-10 px-5 aspect-w-16 aspect-h-9 "
+            src={icon5}
+            alt=""
+          />
 
-          <img className="bg-cover bg-center md:h-16 h-14 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl ml-20 py-3 px-4 aspect-w-16 aspect-h-9 " src={icon6} alt="" />
+          <img
+            className="bg-cover bg-center md:h-20 h-16 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl md:mx-10  py-3 md:px-10 px-5 aspect-w-16 aspect-h-9 "
+            src={icon6}
+            alt=""
+          />
         </Marquee>
       </div>
     </div>

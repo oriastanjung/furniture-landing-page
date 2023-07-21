@@ -4,7 +4,7 @@ import ButtonWithArrow from "../ButtonWithArrow";
 import HeroStats from "../HeroStats";
 function Hero() {
   return (
-    <section className="flex flex-col md:flex-row md:items-start items-center justify-center w-full md:justify-between">
+    <section className="px-5 md:px-0 container mx-auto flex flex-col md:flex-row md:items-start items-center justify-center w-full md:justify-between">
       <div className="flex flex-col">
         <h4 className="font-semibold w-3/4 mt-8 md:mt-0 text-4xl md:text-7xl md:leading-[108px] md:w-[515px]">
           Make Your Place More Comfortable
