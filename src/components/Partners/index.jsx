@@ -14,7 +14,7 @@ function Partners() {
         Product Partners
       </h2>
       <div>
-        <Marquee pauseOnHover={true} loop={0} speed={250}>
+        <Marquee pauseOnHover={true} loop={0} speed={50}>
           <img
             className="bg-cover bg-center md:h-20 h-16 hover:cursor-pointer border-2 border-transparent hover:border-black rounded-xl md:mx-10  py-3 md:px-10 px-5 aspect-w-16 aspect-h-9 "
             src={icon1}
